@@ -87,9 +87,13 @@ responsive-image-gallery/
 ├── script.js
 └── README.md
 
+---
+
+
 👨‍💻 Author
 ANDANA KAMAL LOCHAN PATRA
 
 MCA Graduate
 
 GitHub: https://github.com/likunpatra
+
