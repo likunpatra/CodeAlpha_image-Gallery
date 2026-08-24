@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Image Gallery</h1>
+        <p>Explore beautiful moments</p>
+    </header>
+    <section class="filters">
+        <button class="filter-btn active" data-category="all">
+            All
+        </button>
+        <button class="filter-btn" data-category="nature">Nature</button>
+        <button class="filter-btn" data-category="city">City</button>
+        <button class="filter-btn" data-category="animals">Animals</button>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+             alt="Mountain">
+             <div class="overlay">
+                 <h3>Mountain</h3>
+                 <p>Nature</p>
+             </div>
+        </div>
+        <div class="gallery-item" data-category="city">
+            <img src="https://plus.unsplash.com/premium_photo-1682656220562-32fde8256295?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+            alt="city">
+            <div class="overlay">
+                <h3>hyderabad</h3>
+                <p>City</p>
+            </div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+            <img src="https://images.unsplash.com/photo-1605092676920-8ac5ae40c7c8?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+             alt="Tiger">
+             <div class="overlay">
+                <h3>Tiger</h3>
+                <p>Animals</p>
+             </div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+             alt="nature">
+             <div class="overlay">
+                <h3>Forest</h3>
+                <p>Nature</p>
+             </div>
+        </div>
+    </section>
+    
+    <div class="lightbox" id="lightbox">
+        <button class="close-btn">&times;</button>
+        <button class="prev-btn">&#10094;</button>
+        <img id="lightbox-img" src="" alt="">
+        <button class="next-btn">&#10095;</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
